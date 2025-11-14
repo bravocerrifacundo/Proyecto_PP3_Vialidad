@@ -31,10 +31,10 @@ DB_PATH = "users.db"                  # BD local de usuarios (SQLite)
 LOCAL_CSV = "datos_locales.csv"       # Copia local de registros
 
 # ⚠️ PONÉ EL ID DE TU HOJA DE GOOGLE SHEETS:
-SHEET_ID = "1gWAncBNlgK-hp8Ds06fo3Cn_PDoye803bkqpaQjr3sE"
+SHEET_ID = ""
 
 # Carpeta de Drive para backups (ya está configurada)
-DRIVE_FOLDER_ID = "1ONS529VxI0rwWRfpUfffzVHkMd0eQo72"
+DRIVE_FOLDER_ID = ""
 
 # Alcances Google APIs
 SCOPE = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
@@ -378,3 +378,4 @@ class MainApp(tk.Tk):
 if __name__ == "__main__":
     app = MainApp()
     app.mainloop()
+
