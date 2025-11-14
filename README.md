@@ -43,4 +43,4 @@ Incluye los análisis y el modelo predictivo.
 
 ### 4. Carpeta /docs
 
--Incluye la documentación formal del proyecto.
+- Incluye la documentación formal del proyecto.
