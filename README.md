@@ -37,9 +37,9 @@ Incluye los análisis y el modelo predictivo.
 
 ### 3. Carpeta **/app**
 
--Contiene la aplicación de carga de datos desarrollada en Tkinter.
--Completar los campos de carga.
--Guardar registros (se almacenan como CSV).
+- Contiene la aplicación de carga de datos desarrollada en Tkinter.
+- Completar los campos de carga.
+- Guardar registros (se almacenan como CSV).
 
 ### 4. Carpeta /docs
 
