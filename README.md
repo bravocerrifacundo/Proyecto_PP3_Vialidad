@@ -8,3 +8,8 @@ El objetivo principal es digitalizar los registros jurídicos del área mediante
 
 ## 📁 Estructura del repositorio
 
+data/ → datasets simulados  
+notebooks/ → análisis exploratorio y modelo predictivo  
+app/ → código de la aplicación de carga  
+docs/ → documentación técnica y demo  
+README.md → guía principal del proyecto
