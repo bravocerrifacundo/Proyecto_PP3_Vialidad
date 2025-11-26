@@ -43,10 +43,10 @@ El objetivo es establecer una estructura organizada que permita mejorar la gesti
 **Objetivo general:**  
 Digitalizar, centralizar y organizar los registros jurídicos del Departamento de Vialidad.
 
-**Alcance del Avance 1:**  
+**Alcance de los Avances:**  
 - Diagnóstico inicial de la situación.  
 - Definición de la estructura del proyecto.  
-- Creación del dataset simulado (500 registros, 22 variables).  
+- Creación del dataset simulado (1550 registros, 20 variables).  
 - Desarrollo preliminar de la aplicación de carga en Tkinter.  
 - Estructura del repositorio en GitHub.  
 - Inicio del notebook de análisis exploratorio.
@@ -67,11 +67,11 @@ El flujo propuesto para el manejo de datos es el siguiente:
 2. **Almacenamiento:**  
    La información se guarda en un archivo CSV con formato estructurado.
 
-3. **Procesamiento:**  
-   Los datos se limpian y analizan en Python utilizando Jupyter Notebook.
+3. **Visualización:**  
+   Los resultados se presentan en dashboards interactivos desarrollados en Looker Studio.
 
-4. **Visualización:**  
-   Los resultados se presentan en dashboards interactivos desarrollados en Streamlit y Looker Studio.
+4. **Procesamiento:**  
+   Los datos se limpian y analizan en Python utilizando Jupyter Notebook.
 
 Este flujo asegura consistencia, trazabilidad y la posibilidad de realizar análisis más avanzados en etapas posteriores.
 
@@ -87,8 +87,8 @@ Esta estructura permite organizar la información de forma clara y facilita su p
 ## 7. Estructura del repositorio
 
 data/dataset_simulado.csv
-notebooks/analisis_exploratorio.ipynb
-          modelo_predictivo.ipynb
+notebooks/EDA_Vialidad.ipynb
+          ModeloPredictivo_RF.ipynb
 app/app.py
 docs/informe_tecnico.md
     video_demo_link.txt
