@@ -87,9 +87,15 @@ Esta estructura permite organizar la información de forma clara y facilita su p
 ## 7. Estructura del repositorio
 
 data/dataset_simulado.csv
+
 notebooks/EDA_Vialidad.ipynb
-          ModeloPredictivo_RF.ipynb
+
+         /ModeloPredictivo_RF.ipynb
+          
 app/app.py
+
 docs/informe_tecnico.md
-    video_demo_link.txt
+
+    /video_demo_link.txt
+    
 README.md
